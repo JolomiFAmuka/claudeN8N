@@ -1,0 +1,9 @@
+# SearXNG config for n8n's Instance AI web search.
+# Inherits SearXNG's defaults and adds the json output format, which the n8n
+# AI Assistant needs — SearXNG serves html only by default, and n8n cannot
+# parse that.
+use_default_settings: true
+search:
+  formats:
+    - html
+    - json
