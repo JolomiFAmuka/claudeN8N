@@ -15,6 +15,10 @@ postgres_data/
 Thumbs.db
 *.swp
 
+# Backups (see docs/local-stack.md)
+backup-*.sql.gz
+backup-*.tar.gz
+
 # Scratch
 scratch/
 *.tmp
